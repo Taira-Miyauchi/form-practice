@@ -8,60 +8,60 @@ input, select, button {
   border: none;
   outline: none;
   padding: 0px;
-}
+}/**/
 
 .wrapper {
   width: 100%;
   background: #cff1ff;
-}
+}/**/
 
 .inner {
   margin: 0 auto;
   width: 600px;
-}
+}/**/
 
 .content__title {
   font-size: 18px;
   color: #000000;
-}
+}/**/
 
 .label__section {
   margin-top: 25px;
-}
+}/**/
 
 .label__text {
   font-size: 14px;
   color: #464646;
-}
+}/**/
 
 .is__flex {
   display: flex;
-}
+}/**/
 
 .personal__content, .account__content, .contact__content, .subscription__content, .submit__content{
   margin-top: 50px;
-}
+}/**/
 
 .required {
   color: #e40000;
-}
+}/**/
 
 .page__title {
   padding-top: 60px;
   font-size: 28px;
   text-align: center;
-}
+}/**/
 
 .form__wrap {
   padding: 50px;
   background: #ecfaff;
   margin-top: 60px;
-}
+}/**/
 
 .form__title {
   font-size: 24px;
   text-align: center;
-}
+}/**/
 
 .input__area {
   width: 100%;
@@ -72,7 +72,7 @@ input, select, button {
   box-sizing: border-box;
   border: 1px solid #d9d9d9;
   background: #fbfbfb;
-}
+}/**/
 
 .input__area:focus {
   background-color: #fff;
@@ -82,12 +82,12 @@ input, select, button {
 
 .select__area, .gender__area {
   margin-top: 6px;
-}
+}/**/
 
 .select__unit {
   width: 100%;
   position: relative;
-}
+}/**/
 
 .select__unit:after {
   content: "";
@@ -100,22 +100,22 @@ input, select, button {
   border-bottom: 2px solid #c3c3c3;
   border-right: 2px solid #c3c3c3;
   transform: rotate(45deg);
-}
+}/**/
 
 .gender__element {
   margin-left: 10px;
-}
+}/**/
 
 .gender__element:first-child {
   margin-left: 0;
-}
+}/**/
 
 .gender__element span{
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
   color: #545658;
-}
+}/**/
 
 .gender__element span:before {
   content: "";
@@ -128,7 +128,7 @@ input, select, button {
   border: 1px solid #d9d9d9;
   border-radius: 50%;
   transform: translateY(-50%);
-}
+}/**/
 
 .gender__content:checked +
 span:after {
@@ -141,12 +141,12 @@ span:after {
   background-color: #017cbf;
   border-radius: 50%;
   transform: translateY(-50%);
-}
+}/**/
 
 .subscription__label {
   position: relative;
   padding-left: 25px;
-}
+}/**/
 
 .subscription__label:before {
   content: "";
